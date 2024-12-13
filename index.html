@@ -1,1 +1,70 @@
-
+<!DOCTYPE html>
+<lang="en-US">
+	<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Portfolio Website</title>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">About Me</a>
+    
+            <nav>
+                <a href="#" class="active"> Home</a>
+                <a href="https://www.linkedin.com/in/nakshatrahiray/" class="active"> Linkedin</a>
+            </nav>
+        </header>
+        <section class="home">
+            <div class="home-img">
+                <img src="picture.jpg">
+            </div>
+            <div class="home-content">
+                <h1>Hi, It's <span>Nakshatra</span></h1>
+                <h3 class="typing-text">I'm a... <span></span></h3>
+                <h4 class="typing-text">freshman at the University of Maryland-College Park studying information science, planning to concentrate in the data science track and minoring in cybersecurity. I enjoy dancing (fun fact: I've trained in Bharatanatyam for the past 15 years), cooking, and visiting new cafes! <span></span></h4>
+            </div>
+        </section>
+        <style>
+            .flex-container {
+              display: flex;
+              justify-content: center;
+              background-color: rgb(161, 132, 132);
+            }
+            
+            .flex-container > div {
+              background-color: #f1f1f1;
+              margin: 10px;
+              padding: 20px;
+              font-size: 30px;
+            }
+            </style>
+            <h2>Some of My Favorite TV Shows & Movies:</h2>
+        
+        </div>
+        <div class="showMovies">
+                <div class="showCover">
+                    <p>Jane The Virgin</p>
+                    <img src="https://m.media-amazon.com/images/M/MV5BZjNjZWI4OWUtZDY3Yy00NDBhLWE3YjMtNzc2ZTVjMjRkOWFlXkEyXkFqcGc@._V1_.jpg" class="images">
+                    <br>
+                    <button onclick="theCast()">The Show</button>
+                </div>
+                <br>
+                <div class="showCover">
+                    <p>Legally Blonde</p>
+                    <img src="https://static1.moviewebimages.com/wordpress/wp-content/uploads/tv/XsktzBcYO3roeNznAOctvR9JopeG5l.jpg" class="images">
+                    <br>
+                    <button onclick="rate()">The Movie</button>
+                </div>
+                <br>
+                <div class="showCover">
+                    <p>Love Island</p>
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeJVf20viddoQuYD0RhOAcfCerAgk3a4UBxg&s" class="images">
+                    <br>
+                    <button onclick="add_info()">The Show</button>
+                </div>   
+            </div>
+        </div>
+    </body>
+</html>
